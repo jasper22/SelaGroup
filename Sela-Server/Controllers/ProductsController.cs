@@ -20,7 +20,6 @@ namespace Sela_Server.Controllers
         }
 
 
-        // GET: api/Products/5
         [HttpGet("{offset}/{word?}")]
         public async Task<ActionResult<IEnumerable<IProduct>>> Get(int offset, string word)
         {
