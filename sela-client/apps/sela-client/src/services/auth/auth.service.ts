@@ -24,7 +24,7 @@ export class AuthService {
     this.localStorage.getItem('token').subscribe((value) => {
 
       if (value != null) {
-        this.loggedInUser$.next(value.toString());
+        this.loggedInUser$.next((<string> value));
       }
 
       this.alreadyInitialized$.next(true);
