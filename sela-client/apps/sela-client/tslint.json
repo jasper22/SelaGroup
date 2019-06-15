@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "selaClient", "camelCase"],
+    "component-selector": [true, "element", "sela-client", "kebab-case"]
+  }
+}

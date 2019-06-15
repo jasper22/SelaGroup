@@ -1,0 +1,8 @@
+<mat-list>
+    <h3 matSubheader>Items</h3>
+    <mat-list-item *ngFor="let item of cartItems">
+       <mat-icon matListIcon>chevron_right</mat-icon>
+       <h4 matLine>Name: {{item.name}}</h4>
+       <p matLine>Description: {{item.description}} </p>
+    </mat-list-item>
+ </mat-list>

@@ -1,0 +1,21 @@
+{
+  "npmScope": "sela-client",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "sela-client-e2e": {
+      "tags": []
+    },
+    "sela-client": {
+      "tags": []
+    },
+    "material": {
+      "tags": ["sela-client-lib"]
+    }
+  }
+}

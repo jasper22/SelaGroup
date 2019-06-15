@@ -1,0 +1,14 @@
+.viewport-box {
+    height: 100vh;
+    width: 100vw;
+}
+
+.single-item {
+    max-width: 500px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.fill-remaining-space {
+    flex: 1 1 auto;
+  }

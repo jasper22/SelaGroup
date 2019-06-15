@@ -1,0 +1,24 @@
+<div class="container">
+  <cdk-virtual-scroll-viewport itemSize="4" class="viewport-box">
+
+    <div *cdkVirtualFor="let item of productList; let i = index">
+      <mat-card class="single-item">
+        <mat-card-header>
+          <mat-card-title>Title: {{item.name}}</mat-card-title>
+          <mat-card-subtitle>ID: {{item.id}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            Description: <br />
+            {{item.description}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-stroked-button (click)="addToCart($event, item)" style="margin: 3px;">ADD TO CART</button>
+          <button mat-stroked-button [routerLink]="['/product/', i]" style="margin-left: 10px;">DETAILS</button>
+        </mat-card-actions>
+      </mat-card>
+    </div> 
+
+  </cdk-virtual-scroll-viewport>
+</div>
