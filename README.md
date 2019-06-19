@@ -35,11 +35,10 @@ Tip: To login any username/password combination will do
 
 ### And coding style tests
 
-
+Trying to follow [Angular Style guide](https://angular.io/guide/styleguide)
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
