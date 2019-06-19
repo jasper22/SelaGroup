@@ -44,7 +44,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Angular 8](https://angular.io/)
-* [Angular CLI](https://cli.angular.io/) 
+* [Narwal CLI](https://nx.dev/) 
 * [.NET Core](https://dotnet.microsoft.com/)
 * [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
 
